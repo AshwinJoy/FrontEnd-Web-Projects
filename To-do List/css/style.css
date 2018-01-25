@@ -1,0 +1,45 @@
+body{
+    background: radial-gradient(pink,hotpink);
+}
+.wrapper{
+    border: 10px solid black;
+    height: 300px;
+    width:260px ;
+    margin: 100px auto;
+    border-radius: 15px;
+    background-color: white;
+}
+.header{
+    border-bottom: 5px solid black;
+    height:50px;
+    text-align: center;
+/*    margin-top: 10px;*/
+    background: linear-gradient(yellow,lightyellow);
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    font-family: 'Macondo', cursive;
+
+}
+input[type="checkbox"]{
+    float: right;
+    margin-right:15px; 
+}
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+ul{
+    list-style-type: none;
+}
+.grey{
+    background: grey;
+}
+.todo{
+    background: rgba(50,50,50,.2);
+    width: 100%;
+    
+}
+label{
+    font-family: 'Josefin Sans', sans-serif;
+}

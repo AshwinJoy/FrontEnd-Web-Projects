@@ -1,0 +1,29 @@
+body{
+    background: url("images/g1.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+}
+div{
+    background-color: darkcyan;
+    width:40%;
+    margin: 150px auto;
+    text-align: center;
+    font-family: 'Joti One', cursive;
+    border-radius: 20px;
+    opacity: 0.8;
+    
+}
+button{
+    color: darkgreen;
+    background: powderblue;
+    font-family: 'Exo 2', sans-serif;
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,43 @@
+body{
+    position: fixed;
+    
+}
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    z-index: 1;
+}
+div{
+    position: relative;
+    z-index: 2;
+    margin: 120px auto;
+    text-align: center;
+    max-width: 50%;
+}
+a{
+    display: inline-block;
+    border: 2px solid rgb(255,60,100);
+    color: rgb(255,60,100);
+    padding: 20px 20px ;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-family: 'Pacifico', cursive;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 3.5em;
+    color: #d80b1e;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+p{
+    font-size: 1.5em;
+    background: rgb(39,39,39);
+    color: white;
+    opacity: 0.7;
+    font-family: 'Lobster', cursive;
+
+    
+}
