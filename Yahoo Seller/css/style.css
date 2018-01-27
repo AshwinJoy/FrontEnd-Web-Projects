@@ -1,0 +1,29 @@
+.nav-justified{
+    background-color: #eee;
+    border-radius: 7px;
+}
+.container{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav > ul{
+    margin-top: 10px;
+}
+.jumbotron{
+    text-align: center;
+    background-color: transparent;
+    height: 80%;
+}
+footer{
+    height: 80px;
+    background-color: #888;
+    text-align: center;
+}
+footer h4{
+    padding-top: 30px;
+}
+footer h4 a{
+    color: black;
+    text-decoration: none;
+}
