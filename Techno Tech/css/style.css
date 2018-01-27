@@ -1,0 +1,37 @@
+html{
+height: 100%;
+}
+body{
+    background-image: url(../images/pexels-photo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    text-align: center;
+    margin: 150px auto;
+    color: white;
+    font-family: 'Supermercado One', cursive;
+    font-size: 2em;
+}
+#click{
+    background: forestgreen;
+}
+.mandu{
+    font-size: 3em;
+}
+.dog{
+    font-size: .5em;
+}
+
+@media (max-width:768px){
+    .mandu,h1,p{
+        background-color:rgba(34, 139, 34,0.8);
+    }
+}
+
+#mydrop{
+    margin-top:10px; 
+}
+.tw{
+    background-color: deepskyblue;
+}
