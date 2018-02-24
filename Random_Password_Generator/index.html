@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css" class="css">
+	<title>Password Generator</title>
+
+</head>
+
+<body>
+
+	<div class="container">
+    <form action="" name="passGen">
+     
+      <div class="row myrow">
+       <div class="col-md-12">
+           <input type="text" class="out" name="output"  size="30" >
+                        <div class="col-md-12">
+                             <input type="button" class="btn btn-success myBtn" onclick="grabber(this.form.length.value)" value="Generate Password" >
+                        </div>
+                    </div>
+       </div>
+       
+       
+       <div class="row pass">
+             <div class="col-md-10 passtext">
+                     Password Length
+             </div>
+             <div class="col-md-2">
+                   <input type="text" class="passl" name="length" value="6" size="3"> 
+             </div>
+       </div>
+     
+   
+    </form>
+
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script src="js/script.js">
+	</script>
+
+</body>
+
+</html>
